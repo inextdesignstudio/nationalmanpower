@@ -158,15 +158,19 @@ header .navbar-default.scrolled ul.navbar-nav {
   text-align: center;
 }
 .section-heading h1 {
-  display: inline-block;
+  /* display: inline-block; */
   font-size: 55px;
   font-weight: 300;
   margin-bottom: 0;
+  margin-top: -180px;
+  color: #fff;
 }
 .section-heading p {
-  font-size: 25px;
+  font-size: 18px;
   color: #999999;
   font-weight: 300;
+  color: #fff;
+  margin-top: -5px;
 }
 .section-heading .divider:after {
   content: "";
