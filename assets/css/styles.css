@@ -53,7 +53,7 @@ header .navbar-default {
   transition: all 0.25s ease-in-out;
 }
 header .navbar-default ul.navbar-nav {
-  padding-top: 25px;
+  padding-top: 5px;
 }
 header .navbar-default ul.navbar-nav li a {
   text-transform: capitalize;
@@ -158,14 +158,25 @@ header .navbar-default.scrolled ul.navbar-nav {
   text-align: center;
 }
 .section-heading h1 {
-  /* display: inline-block; */
+  display: inline-block;
+  font-size: 55px;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+.section-heading p {
+  font-size: 18px;
+  color: #999999;
+  font-weight: 300;
+}
+.section-page-heading h1 {
+  display: block;
   font-size: 55px;
   font-weight: 300;
   margin-bottom: 0;
   margin-top: -180px;
   color: #fff;
 }
-.section-heading p {
+.section-page-heading p {
   font-size: 18px;
   color: #999999;
   font-weight: 300;
